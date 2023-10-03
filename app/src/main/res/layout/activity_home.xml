@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_title"
+        android:text="iNetCar"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:layout_margin="50dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_text"
+        android:text="Bem-Vindo!"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@id/header_title"
+        android:textSize="55dp"
+        android:layout_margin="50dp"
+        ></TextView>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutbtn"
+        android:layout_below="@id/welcome_text"
+        android:text="Sair"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+
+
+
+
+
+</RelativeLayout>
